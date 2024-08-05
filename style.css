@@ -1,0 +1,142 @@
+
+*::after
+*::before
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+
+h1 {
+    font-family: "poppins", sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    color: white;
+    font-size: xx-large;
+}
+
+h2 {
+    font-family: "poppins", sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-style: normal;
+    color: white;
+}
+
+.background-green {
+    background-color: #116E8B;
+    padding: 0px 20px 0px 20px;
+}
+
+button{
+    border: none;
+    background: none;
+    color: #fff;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+.principal {
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./assets/img/nike-store.jpg)
+}
+
+.white-tshirt {
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./assets/img/remerablanca2.png)
+}
+
+.buttom-size {
+    width: 230px;
+    height: 93px;
+    font-size: larger;
+}
+
+.buttom-size:hover {
+    border-bottom: 1px solid white;
+}
+
+.container-icon {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: space-between;
+    color: white;
+}
+
+.tshirts-imgs {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.pipe {
+    height: 78px;;
+}
+
+
+@media (min-width: 0px) and (max-width: 760px) {
+    header {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .pipe {
+        height: 70px;
+        width: 70px;
+    }
+
+    .buttoms-div {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media (min-width: 760px) and (max-width: 1000px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pipe {
+        height: 70px;
+        width: 70px;
+    }
+}
+.form-register{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: "calibri";
+    color: white;
+}
+.controls{
+    width: 100%;
+    display:inline
+    padding: 10px;
+    background: white
+    
+    
+}
